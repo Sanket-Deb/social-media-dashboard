@@ -4,13 +4,19 @@
   flex-direction:column;
   justify-content: space-evenly;
   column-gap: 30px;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
+  max-width: 1125px;
+  margin: auto;
 }
-.cardsWrapper{
+.cardsWrapper, .cards2Wrapper{
   display: flex;
   width: 100%;
-  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
+}
+@media only screen and (max-width: 1200px) {
+  .cardsWrapper,  .cards2Wrapper{
+    justify-content:center
+  }
 }

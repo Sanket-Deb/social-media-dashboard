@@ -41,7 +41,8 @@ const [theme, setTheme] = useState()
 
       return (
         <>
-            <div>
+            <div style={{display:'flex', gap:'10px', alignItems:'center'}}>
+                 <span style={{fontWeight:'600', width:'max-content'}}>Dark Mode</span>
                 <IOSSwitch onClick={Toggle}/>
             </div>
         </>

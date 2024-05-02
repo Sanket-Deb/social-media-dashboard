@@ -25,8 +25,8 @@ const Card = ({
         </div>
         <p style={{color: "var(--secondary-text)", fontSize: "50px", fontWeight: 700}}>{followers}</p>
         <p style={{letterSpacing: "5px"}}>{label}</p>
-        <div>
-          <Image src={arrow} width={10} height={10}  alt="arrow"/>
+        <div className={styles.count}>
+          <Image src={arrow} width={10} height={5}  alt="arrow"/>
           <span style={{color: countcolour}}>{deltafollowers} Today</span>
         </div>
       </div>

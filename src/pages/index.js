@@ -61,12 +61,84 @@ const display = cards.map((item)=>{
   return <Card key={item.id} icon={item.icon} username= {item.username} followers={item.followers} deltafollowers={item.deltafollowers} countcolour={item.countcolour} arrow={item.arrow} bordercolour={item.bordercolour} label={item.label}/>
 })
 
-// const cards2 = [
-//   {
-//     id:1,
+const cards2 = [
+  {
+    id:"1",
+    info:"Page Views",
+    handle:"./images/icon-facebook.svg",
+    data: "87",
+    arrow:'./images/icon-up.svg',
+    deltacolor:"hsl(163, 72%, 41%)",
+    deltapercent: "3"
+  },
+  {
+    id:"2",
+    info:"Likes",
+    handle:"./images/icon-facebook.svg",
+    data: "52",
+    arrow:'./images/icon-down.svg',
+    deltacolor:"hsl(356, 69%, 56%)",
+    deltapercent: "2"
+  },
+  {
+    id:"3",
+    info:"Likes",
+    handle:"./images/icon-instagram.svg",
+    data: "5462",
+    arrow:'./images/icon-up.svg',
+    deltacolor:"hsl(163, 72%, 41%)",
+    deltapercent: "2257"
+  },
+  {
+    id:"4",
+    info:"Profile Views",
+    handle:"./images/icon-instagram.svg",
+    data: "52k",
+    arrow:'./images/icon-up.svg',
+    deltacolor:"hsl(163, 72%, 41%)",
+    deltapercent: "1375"
+  },
+  {
+    id:"5",
+    info:"Retweets",
+    handle:"./images/icon-twitter.svg",
+    deltacolor:"hsl(163, 72%, 41%)",
+    data: "117",
+    arrow:'./images/icon-up.svg',
+    deltapercent: "303"
+  },
+  {
+    id:"6",
+    info:"Likes",
+    handle:"./images/icon-youtube.svg",
+    data: "507",
+    arrow:'./images/icon-up.svg',
+    deltacolor:"hsl(163, 72%, 41%)",
+    deltapercent: "553"
+  },
+  {
+    id:"7",
+    info:"Likes",
+    handle:"./images/icon-youtube.svg",
+    data: "107",
+    arrow:'./images/icon-down.svg',
+    deltacolor:"hsl(356, 69%, 56%)",
+    deltapercent: "19"
+  },
+  {
+    id:"8",
+    info:"Total Views",
+    handle:"./images/icon-youtube.svg",
+    data: "1407",
+    arrow:'./images/icon-down.svg',
+    deltacolor:"hsl(356, 69%, 56%)",
+    deltapercent: "12"
+  }
+]
+  const display2 = cards2.map((item)=>{
+    return <Card2 key={item.id} info={item.info} handle={item.handle} data={item.data} arrow={item.arrow} deltacolor={item.deltacolor} deltapercent={item.deltapercent}/>
+  })
 
-//   }
-// ]
   return (
     <>
       <Head>
@@ -81,10 +153,8 @@ const display = cards.map((item)=>{
           <Toggle/>
         </header>
         <section className={styles.cardsWrapper}>{display}</section>
-        <header>
           <MiddleTile/>
-        </header>
-        <Card2></Card2>
+        <section className={styles.cards2Wrapper}>{display2}</section>
       </main>
     </>
   );

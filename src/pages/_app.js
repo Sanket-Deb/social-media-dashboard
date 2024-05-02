@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import "@/styles/variable.css";
 
-import Toggle from "@/components/Toggle/Toggle";
 
 import { Inter } from 'next/font/google'
  
@@ -11,7 +10,6 @@ const inter = Inter({ subsets: ['latin'] })
 export default function MyApp({ Component, pageProps }) {
   return (
     <main className={inter.className}>
-      {/* <Toggle/> */}
       <Component {...pageProps} />
     </main>
   )
