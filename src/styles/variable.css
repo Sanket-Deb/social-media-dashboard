@@ -1,0 +1,26 @@
+/*
+ * Dark mode theme 
+ */
+ :root[data-theme='dark'] {
+	--bg-main: hsl(230, 17%, 14%);
+	--bg-top:		hsl(232, 19%, 15%);
+	--card-bg:		hsl(228, 28%, 20%);
+	--primary-text:		hsl(228, 34%, 66%);
+	--secondary-text: 		hsl(0, 0%, 100%);
+	--hover-color:   hsl(230, 17%, 26%);
+	
+	/* Asks browser to behave in dark mode */
+	color-scheme: dark;
+} 
+
+/*
+ * Light mode theme 
+ */
+:root[data-theme='light'] {
+	--bg-main: hsl(0, 0%, 100%);
+	--bg-top:		hsl(225, 100%, 98%);
+	--card-bg:		hsl(227, 47%, 96%);
+	--primary-text:		hsl(228, 12%, 44%);
+	--secondary-text: 		hsl(230, 17%, 14%);
+	--hover-color:   hsl(227deg 25.94% 84.26%);
+}

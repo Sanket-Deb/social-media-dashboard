@@ -1,0 +1,34 @@
+
+
+.cardWrapper{
+    background-color:var(--card-bg);
+    display:flex;
+    color: var(--primary-text);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 200px;
+    width: 250px;
+    padding: 10px 50px;
+    line-height: 40px;
+    border-top: 5px solid red;
+    border-radius: 2px 2px 0 0;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.cardWrapper:hover{
+    background-color: var(--hover-color);
+}
+.firstSection{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.cardWrapper span{
+    padding: 0 0 0 4px;
+    font-weight: 600;
+}
+

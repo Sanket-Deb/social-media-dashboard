@@ -1,0 +1,6 @@
+.middleTile{
+    font-size:25px;
+    font-weight: bold;
+    color: var(--secondary-text);
+    width: 100%;
+}

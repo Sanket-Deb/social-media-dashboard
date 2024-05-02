@@ -1,0 +1,35 @@
+.card2Wrapper{
+    background-color:var(--card-bg);
+    display:flex;
+    flex-direction: column;
+    color: var(--primary-text);
+    align-items: center;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 150px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 2px 2px 0 0;
+    cursor: pointer;
+    transition: 0.4s ease;
+    justify-content: space-between;
+}
+.firstPart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    width: 100%;
+}
+.secondPart{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5px;
+}
+.delta{
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
