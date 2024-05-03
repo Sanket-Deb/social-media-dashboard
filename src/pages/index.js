@@ -149,7 +149,7 @@ const cards2 = [
         <meta property="og: type" content="website" />
         <meta property="og:image" content="https://sanket-deb.github.io/social-media-dashboard/images/social.jpg" />
         <meta property="og:image: secure_url" content="https://sanket-deb.github.io/social-media-dashboard/images/social.jpg" />
-        <meta property="og:image: type" content="image/jpg" />
+        <meta property="og:image: type" content="image/jpeg" />
         <meta property="og:image: width" content="400" />
         <meta property="og:image: height" content="300" />
         <meta property="og:image: alt" content="A social media dashboard" />
@@ -159,7 +159,7 @@ const cards2 = [
       <main className={`${styles.main} ${inter.className}`}>
         <header>
           <PageTitle/>
-          <Toggle/>
+          <Toggle/>ghfhfgh
         </header>
         <section className={styles.cardsWrapper}>{display}</section>
           <MiddleTile/>
