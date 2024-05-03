@@ -147,7 +147,7 @@ const cards2 = [
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content="Social Media Dashboard" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="./images/social.jpeg" />
+        <meta property="og:image" content="./images/social.jpg" />
         <meta property="og:url" content="https://sanket-deb.github.io/social-media-dashboard/ " />
         <link rel="icon" href="./images/favicon-32x32.png" />        
       </Head>
