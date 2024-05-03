@@ -145,19 +145,21 @@ const cards2 = [
         <title>Social Media Dashboard</title>
         <meta name="description" content="Social Media Dashboard" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Social Media Dashboard" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image:type" content="https://sanket-deb.github.io/social-media-dashboard/images/social.jpg" />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="300" />
-        <meta property="og:image:alt" content="A social media dashboard" />
-        <meta property="og:url" content="https://sanket-deb.github.io/social-media-dashboard/ " />
+        <meta property="og: title" content="Social Media Dashboard" />
+        <meta property="og: type" content="website" />
+        <meta property="og: image" content="https://sanket-deb.github.io/social-media-dashboard/images/social.jpg" />
+        <meta property="og: image: secure_url" content="https://sanket-deb.github.io/social-media-dashboard/images/social.jpg" />
+        <meta property="og:image: type" content="image/jpg" />
+        <meta property="og:image: width" content="400" />
+        <meta property="og:image: height" content="300" />
+        <meta property="og:image: alt" content="A social media dashboard" />
+        // <meta property="og:url" content="https://sanket-deb.github.io/social-media-dashboard/ " />
         <link rel="icon" href="./images/favicon-32x32.png" />        
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <header>
           <PageTitle/>
-          <Toggle/>
+          <Toggle/>kfdjglkjflksdjfkldjlkkldkfjsklfjsk
         </header>
         <section className={styles.cardsWrapper}>{display}</section>
           <MiddleTile/>
