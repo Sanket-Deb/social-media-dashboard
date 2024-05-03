@@ -8,7 +8,7 @@
 	--primary-text:		hsl(228, 34%, 66%);
 	--secondary-text: 		hsl(0, 0%, 100%);
 	--hover-color:   hsl(230, 17%, 26%);
-	--toggle-color: hsl(228, 28%, 20%);
+	--toggle-color: hsl(228, 28%, 20%) !important;
 	
 	/* Asks browser to behave in dark mode */
 	color-scheme: dark;
