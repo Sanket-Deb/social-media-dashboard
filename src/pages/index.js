@@ -153,13 +153,13 @@ const cards2 = [
         <meta property="og:image: width" content="400" />
         <meta property="og:image: height" content="300" />
         <meta property="og:image: alt" content="A social media dashboard" />
-        // <meta property="og:url" content="https://sanket-deb.github.io/social-media-dashboard/ " />
+        <meta property="og:url" content=" social-media-dashboard/ " />
         <link rel="icon" href="./images/favicon-32x32.png" />        
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <header>
           <PageTitle/>
-          <Toggle/>ghfhfgh
+          <Toggle/>
         </header>
         <section className={styles.cardsWrapper}>{display}</section>
           <MiddleTile/>

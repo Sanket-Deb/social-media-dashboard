@@ -11,7 +11,7 @@ const IOSSwitch = styled((props) => (
       padding: 0,
       margin: 2,
       transitionDuration: '300ms',
-      color: 'var(--toggle-color)',
+      color: 'var(--toggle-color) !important',
       '&.Mui-checked': {
         transform: 'translateX(16px)',
         '& + .MuiSwitch-track': {
