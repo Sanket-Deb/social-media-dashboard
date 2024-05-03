@@ -157,6 +157,7 @@ const cards2 = [
       <main className={`${styles.main} ${inter.className}`}>
         <header>
           <PageTitle/>
+Hello World 
           <Toggle/>
         </header>
         <section className={styles.cardsWrapper}>{display}</section>
