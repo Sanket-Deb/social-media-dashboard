@@ -71,7 +71,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: Will be added soon
+- Live Site URL: [Click](https://sanket-deb.github.io/social-media-dashboard/)
 
 ## My process
 
