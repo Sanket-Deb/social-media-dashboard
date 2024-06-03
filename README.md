@@ -7,12 +7,9 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 ## Overview - 
 
 Completed a responsive social media dashboard with a theme switcher using Next.js, styled-components, and modern CSS techniques.
-∗ Developed a responsive social media dashboard that adapts to various screen sizes and includes interactive hover
-states for all elements.
-∗ Implemented a color theme toggle feature, allowing users to switch between light and dark modes according to
-their preference.
-∗ Leveraged Next.js for server-side rendering and styled-components for maintaining scoped CSS, enhancing both
-performance and maintainability
+- Developed a responsive social media dashboard that adapts to various screen sizes and includes interactive hover states for all elements.
+- Implemented a color theme toggle feature, allowing users to switch between light and dark modes according to their preference.
+- Leveraged Next.js for server-side rendering and styled-components for maintaining scoped CSS, enhancing both performance and maintainability.
 
 
 ## Author
