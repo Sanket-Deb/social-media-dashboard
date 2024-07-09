@@ -142,10 +142,10 @@ const cards2 = [
   return (
     <>
       <Head>
-        <title>Social1 Media Dashboard</title>
-        <meta name="description" content="Social2 Media Dashboard" />
+        <title>Social Media Dashboard</title>
+        <meta name="description" content="Social Media Dashboard" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og: title" content="Social3 Media Dashboard" />
+        <meta property="og: title" content="Social Media Dashboard" />
         <meta property="og: type" content="website" />
         <meta property="og:image" content="https://sanket-deb.github.io/social-media-dashboard/images/social.jpg" />
         <meta property="og:image: secure_url" content="https://sanket-deb.github.io/social-media-dashboard/images/social.jpg" />
@@ -153,7 +153,7 @@ const cards2 = [
         <meta property="og:image: width" content="400" />
         <meta property="og:image: height" content="300" />
         <meta property="og:image: alt" content="A social media dashboard" />
-        <meta property="og:url" content=" social4-media-dashboard/ " />
+        <meta property="og:url" content=" social-media-dashboard/ " />
         <link rel="icon" href="./images/favicon-32x32.png" />        
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
